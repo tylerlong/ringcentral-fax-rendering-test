@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Fax</title>
+<style>
+body { width:95%; margin:0 auto } h1 { padding: 0em 0em 0em 0em; }
+.bodyWrap { padding-left:0em } .contactHeading { font-weight:bold;
+padding-left: 2em; } .itemLabel { font-weight:bold; } .logo { width:50%;
+height:50%; padding: 3em 0em 0em 4em; } .top { white-space: nowrap; }
+.top-element { display: inline-block; width: 50%; }
+</style>
+</head>
+<body>
+<div class="top">
+<div class="top-element">
+<img
+class="logo"
+src="https://urldefense.com/v3/__https://images.squarespace-cdn.com/content/v1/575a6067b654f9b902f452f4/1552683653140-0UUVQSSUEWVC73AWAEQG/300Logo.png?format=500w__;!!J-1DKIBqn-Pi!Q5PVsWCCvG7dPBqCxr19TPnG5IOoEoeYOn7uF5U6P7Zw2opxZeKNEU2m07bK-vq0zdY$ "
+/>
+</div>
+<div class="top-element">
+<h1>FAX COVER SHEET </h1>
+</div>
+</div>
+
+<div class="top">
+<div class="top-element">
+<h2 class="contactHeading">From</h2>
+<blockquote>
+<p><span class="itemLabel">Name:</span> {{from_name}}</p>
+
+<p><span class="itemLabel">Phone:</span> {{from_phone}}</p>
+<p><span class="itemLabel">Fax Number:</span> {{from_fax}}</p>
+</blockquote>
+</div>
+<div class="top-element">
+<h2 class="contactHeading">To</h2>
+<blockquote>
+<p><span class="itemLabel">Name:</span> {{to_name}}</p>
+
+<p><span class="itemLabel">Phone:</span> {{to_phone}}</p>
+<p><span class="itemLabel">Fax Number:</span> {{to_fax}}</p>
+</blockquote>
+</div>
+</div>
+
+<div class="bodyWrap">
+<blockquote>
+<p><span class="itemLabel">Date:</span> {{date}}</p>
+<p><span class="itemLabel">Pages including cover sheet:</span>
+{{pages}}</p>
+</blockquote>
+
+<hr />
+<h2 class="contactHeading">Note</h2>
+
+<p>
+{{coverpage_text}}
+</p>
+
+</div>
+<br /><br />
+{{notice_text}}
+<br />
+{{notice_text2}}
+</body>
+</html>
